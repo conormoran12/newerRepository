@@ -1,0 +1,58 @@
+body {
+    background-color: #111111;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 35%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.click {
+    height: 10%;
+    width: 10%;
+    background: white;
+}
+
+.rock {
+    margin-left: -20%;
+    display: inline-block;
+}
+
+.paper {
+    display: inline-block;
+}
+
+.scissors {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.score {
+    margin-top: 15%;
+    border-color: #fff ;
+    border-style: solid;
+    border-radius: 2%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+
+.resetContainer{
+    margin-top: 25%;
+    height: 5%;
+}
